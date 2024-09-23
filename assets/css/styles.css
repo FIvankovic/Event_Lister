@@ -1,0 +1,166 @@
+/*
+* --------navbar = View/shared/header.php-------------------------------------------------------------
+*/
+nav{
+    top: 0;
+    
+}
+.navbar{
+    position: sticky !important;
+    display: flex;
+    z-index: 999;
+    border-bottom: 2px solid black;
+}
+.logout-btn{
+    position: absolute;
+    right: 20px;
+    display: block;
+    padding: .5rem 1rem;
+}
+.logout-icon{
+     color: white;
+     transition: all 0.5s;
+}
+.logout-icon:hover{
+    color: red;
+}
+.nav-profile{
+    position: fixed;
+    top: 11px;
+    right: 70px;
+    display: block;
+    padding: .5rem 1rem;
+    color: white;
+}
+/*
+* -------- index.php, signUp.php -------------------------------------------------------------
+*/
+#login-section{
+    padding-bottom: 200px;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../img/Login_Background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid black;
+    background-position: center top;
+    background-attachment: fixed;
+    padding-top: 250px;
+}
+#signUp-section{
+    padding-bottom: 200px;
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('../img/SignUp_Background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid black;
+    background-position: center top;
+    background-attachment: fixed;
+    padding-top: 250px;
+}
+.entry-form{
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px rgba(145, 145, 145, 0.3);
+    max-width: 100%;
+    overflow: hidden;
+    padding: 40px;
+}
+.form-header{
+    margin-bottom: 25px;
+}
+.form-div{
+    background-color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.form-label{
+    margin-bottom: 10px;
+}
+.message-error{
+    color: red;
+    font-weight: bold;
+}
+.message-success{
+    color: green;
+    font-weight: bold;
+}
+/*
+* --- eventListing.php -------------------------------------------------------------
+*/
+#section-eventListing{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/EventListing_Background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid black;
+    background-position: center top;
+    background-attachment: fixed;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+#event-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#eventTable-div{
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: white;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 32px;
+    padding-right: 32px;   
+    border: 2px solid purple;
+}
+.eventLinks{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+thead th{
+    background-color: aliceblue;
+}
+tr{
+    transition: all 1s;
+}
+tr:hover{
+    background-color: gainsboro;
+}
+
+/*
+* --- adminBoard.php -------------------------------------------------------------
+*/
+#adminboard-header{
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.admin-tables{
+    border: 1px solid grey;
+}
+.section-adminBoard{
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+.h2-adminBoard{
+    margin-bottom: 10px;
+}
+.smallinfo{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+/*
+* --- footer.php -------------------------------------------------------------
+*/
+footer{
+    background-color: #343a40;
+    color: white;
+    padding-top: 30px;
+    padding-bottom:30px;
+    border-top: 2px solid black;
+    margin-right: 0px !important;
+    text-align: center;
+}
+.row{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
